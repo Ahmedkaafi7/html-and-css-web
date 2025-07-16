@@ -1,0 +1,221 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+header {
+  height: 80px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  background-color: whitesmoke;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.445);
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+  font: sans-serif;
+}
+.contact {
+  background-color: rgb(80, 154, 154);
+  padding: 10px 15px;
+  border-radius: 7px;
+}
+.homesection {
+  display: flex;
+  padding: 50px;
+  background-image: url(https://media.istockphoto.com/id/1353063878/vector/concentric-neumorphic-circles-background-abstract.jpg?s=1024x1024&w=is&k=20&c=dT5aDO6pEHD-iF39iXRoFB4qVWbQhsb1WYQ1qwj5Tlc=);
+  background-position: center;
+}
+.homesection .text {
+  width: 50%;
+}
+.homesection img {
+  width: 50%;
+  padding-bottom: 100px;
+}
+.homesection .text h1 {
+  font-size: 50px;
+}
+
+.homesection .text span {
+  color: rgb(23, 155, 215);
+  border-bottom: 3px solid;
+}
+.homesection .text p {
+  padding-top: 20px;
+  font-size: larger;
+}
+.homesection .text button {
+  background-color: rgb(23, 155, 215);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: 2px whitesmoke;
+  margin-top: 10px;
+}
+
+/* about section */
+
+.aboutsection img {
+  width: 50%;
+  border-radius: 5px;
+  height: 400px;
+}
+.aboutsection {
+  display: flex;
+  padding: 50px;
+}
+.aboutsection .text {
+  padding-left: 40px;
+}
+.aboutsection .text img {
+  width: 64px;
+  height: 64px;
+}
+.aboutsection .text h1 {
+  font-size: 50px;
+  margin-top: 30px;
+  margin: 30px;
+}
+.aboutsection .text p {
+  font-size: larger;
+}
+.aboutsection .text button {
+  background-color: rgb(23, 155, 215);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: 2px whitesmoke;
+  margin-top: 10px;
+}
+/* servsection */
+.sersection .maindiv div image {
+  height: 64px;
+  width: 64px;
+  background-color: aqua;
+}
+/* .sersection .maindiv {
+  display: flex;
+} */
+.sersection .maindiv div {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  border-color: rgb(23, 155, 215);
+}
+.sersection .maindiv {
+  display: flex;
+  justify-content: center;
+}
+.sersection h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.sersection > p {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sersection {
+  padding: 50px;
+}
+
+.sersection .maindiv div p {
+  padding-top: 25px;
+}
+
+/* expsection */
+
+.expsection {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 400px;
+  background-color: rgb(23, 155, 215);
+}
+.expsection > div {
+  background-color: white;
+  height: 150px;
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expsection div img {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+
+/* customersuction */
+.sawiriyomagac {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  align-items: center;
+}
+
+.sawiriyomagac img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.divuguween {
+  display: flex;
+  justify-content: center;
+}
+.divuguween > div {
+  padding: 10px;
+  border-radius: 5px;
+  height: 200px;
+  width: 350px;
+  margin: 10px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.customersection {
+  padding: 20px;
+}
+.customersection h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  text-decoration: underline dotted;
+  font-size: xx-large;
+  text-transform: capitalize;
+}
+
+.divuguween div div p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 200px;
+  padding: 150px;
+  font-size: smaller;
+}
+.sawiriyomagac span {
+  color: rgb(23, 155, 215);
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+footer .textft a {
+  font-family: sans-serif;
+  font-weight: lighter;
+
+  color: rgb(23, 155, 215);
+}
